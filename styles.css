@@ -82,6 +82,12 @@ body {
     padding: 0 1.25rem;
 }
 
+/* Make entire section clickable while preserving layout */
+.category-link {
+    display: block;
+    text-decoration: none;
+}
+
 /* Category Sections */
 .category-section {
     height: 20rem;
@@ -141,11 +147,11 @@ body {
 
 /* New Categories */
 .games {
-    background-image: url('https://images.unsplash.com/photo-1677722016462-c1c367f02a40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=400&q=80');
+    background-image: url('https://images.unsplash.com/photo-1593024579758-6221e85efbe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=400&q=80');
 }
 
 .informatica {
-    background-image: url('https://images.unsplash.com/photo-1651012998667-2c779fee76f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=400&q=80');
+    background-image: url('https://images.unsplash.com/photo-1637261144466-405e87fe7101?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=400&q=80');
 }
 
 /* Category Content */
