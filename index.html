@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Nerdático - Produtos para RPG, Livros, Boardgames e Informática</title>
+    <meta name="description" content="Loja Nerdático: Produtos nerds em RPG, livros de fantasia/sci-fi, boardgames e informática. Links de afiliados para gadgets e jogos.">
+    <meta name="keywords" content="nerd, RPG, livros, boardgames, informática, games, tech">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Guitar Pattern Background -->
+    <div class="guitar-pattern"></div>
+    
+    <!-- Main Content Wrapper -->
+    <div class="content-wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-container">
+                <div class="logo-text">LOJA</div>
+                <div class="logo-nm-container">
+                    <div class="logo-nm">NERDÁTICO</div>
+                    <div class="cart-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="8" cy="21" r="1"></circle>
+                            <circle cx="19" cy="21" r="1"></circle>
+                            <path d="m2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Recomendações da Semana -->
+            <div class="category-section recomendacoes" onclick="showToast('Recomendações da Semana')">
+                <div class="category-content">
+                    <h2 class="category-title">RECOMENDAÇÕES DA SEMANA</h2>
+                    <div class="mystery-boxes">
+                        <div class="mystery-box orange">?</div>
+                        <div class="mystery-box red">?</div>
+                    </div>
+                </div>
+                <div class="decorative-dots">
+                    <div class="dot dot-1"></div>
+                    <div class="dot dot-2"></div>
+                </div>
+            </div>
+
+            <!-- Livros -->
+            <div class="category-section livros" onclick="showToast('Livros')">
+                <div class="category-content">
+                    <h2 class="category-title">LIVROS</h2>
+                </div>
+                <div class="decorative-dots">
+                    <div class="dot dot-1"></div>
+                    <div class="dot dot-2"></div>
+                </div>
+            </div>
+
+            <!-- HQs -->
+            <div class="category-section hqs" onclick="showToast('HQs')">
+                <div class="category-content">
+                    <h2 class="category-title">HQS</h2>
+                </div>
+                <div class="decorative-dots">
+                    <div class="dot dot-1"></div>
+                    <div class="dot dot-2"></div>
+                </div>
+            </div>
+
+            <!-- Board Games -->
+            <div class="category-section boardgames" onclick="showToast('Board Games')">
+                <div class="category-content">
+                    <h2 class="category-title">BOARD GAMES</h2>
+                </div>
+                <div class="decorative-dots">
+                    <div class="dot dot-1"></div>
+                    <div class="dot dot-2"></div>
+                </div>
+            </div>
+
+            <!-- RPGs -->
+            <div class="category-section rpgs" onclick="showToast('RPGs')">
+                <div class="category-content">
+                    <h2 class="category-title">RPGS</h2>
+                </div>
+                <div class="decorative-dots">
+                    <div class="dot dot-1"></div>
+                    <div class="dot dot-2"></div>
+                </div>
+            </div>
+
+            <!-- Games -->
+            <div class="category-section games" onclick="showToast('Games')">
+                <div class="category-content">
+                    <h2 class="category-title">GAMES</h2>
+                </div>
+                <div class="decorative-dots">
+                    <div class="dot dot-1"></div>
+                    <div class="dot dot-2"></div>
+                </div>
+            </div>
+
+            <!-- Informática -->
+            <div class="category-section informatica" onclick="showToast('Informática')">
+                <div class="category-content">
+                    <h2 class="category-title">INFORMÁTICA</h2>
+                </div>
+                <div class="decorative-dots">
+                    <div class="dot dot-1"></div>
+                    <div class="dot dot-2"></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Social Links Footer -->
+        <footer class="social-footer">
+            <a href="https://www.youtube.com/@nerdatico" target="_blank" class="social-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/>
+                    <path d="m10 15 5-3-5-3z"/>
+                </svg>
+                YouTube
+            </a>
+            <a href="https://www.instagram.com/nerdatico/" target="_blank" class="social-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                    <path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                </svg>
+                Instagram
+            </a>
+            <a href="https://x.com/nerdatico" target="_blank" class="social-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+                </svg>
+                Twitter
+            </a>
+        </footer>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <div class="toast-title"></div>
+            <div class="toast-description"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
